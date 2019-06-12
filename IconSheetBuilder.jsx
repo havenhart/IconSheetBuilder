@@ -64,6 +64,7 @@ function main(){
 }
 
 function showDebugInfo(caption, value){
+    // just press the Escape button to close this box.
     var dbg = new Window('dialog','Icon Sheet Builder');
     addTextToDialog(dbg,caption,value);
     dbg.show();
