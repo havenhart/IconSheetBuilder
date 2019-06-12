@@ -6,6 +6,11 @@ Create a sheet of icons for use in your applications. Generates a text file with
 ## Requirements
 An Icon Sheet Template image is needed for this script to work. This project contains icon-table-base.psd
 
+## Setup
+Create a new Layer Group for each icon you want to create in the sheet, then add your icon layers to that group.
+
+The script identifies the icons by the group names.
+
 ## To Use
 In Photoshop, with your prepared template image active, click File > Scripts > Browse...
 
